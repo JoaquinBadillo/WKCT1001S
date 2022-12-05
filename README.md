@@ -1,2 +1,7 @@
 # WKCT1001S
-Project for Tec de Monterrey's B.S. in Computer Science and Technology initial stage assessment week
+
+Project for Tec de Monterrey's B.S. in Computer Science and Technology initial stage assessment week.
+
+After the COVID-19 pandemic, many local shops in Mexico were forced to close due to bankruptcy. The size of these businesses did not allow them to adapt to the changes. In this project our task was to come up with an accessible technological solution that can help businesses survive sudden changes in consumer habits and develop a prototype that models some of the expected functionality. I proposed a system that learns patterns in consumption for grocery stores to have a JIT stock control according to recent trends. If the consumption of a certain good or a set of goods decreases, the model is expected to suggest the business owners to purchase less of it. This allows the business to reduce some expenses in the short run and to adapt to change.
+
+Due to the fact that we were only given 3 days to design the solution and prototype, I decided to emulate the behaviour of a database that would be needed to keep track of the current goods and services available. To make it accesible to any user the design does not depend on the platform it is used in, since the source code can be compiled for Linux, MacOS and Windows systems. Moreover, to avoid any additional installation (like MySQL for a database) without using a server (which may be expensive for these businesses), the database is emulated with a csv file that gets some updates during execution time and modifies all data to match restock and sale at the end of the program.
